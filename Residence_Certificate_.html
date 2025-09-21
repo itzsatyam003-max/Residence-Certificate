@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bihar – Residence Certificate (RTPS) – Info Sheet</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{ --navy:#1e62a1; --blue:#2d7bd1; --sky:#d7ecff; --text:#1a1a1a;
+      --muted:#5a6773; --border:#d6dbe1; --ok:#16a34a; }
+    @page { size: A4; margin: 16mm; }
+    body{ font-family:"Noto Sans Devanagari","Inter",Arial,sans-serif; color:var(--text); background:#fff; line-height:1.45; }
+    .brandbar{background:linear-gradient(90deg,var(--sky),#eaf3ff);border:1px solid var(--border);padding:14px 16px;border-radius:8px;margin-bottom:10px;display:flex;align-items:center;gap:12px;}
+    .brandbadge{width:42px;height:42px;border-radius:8px;background:linear-gradient(135deg,var(--blue),var(--navy));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;}
+    .brandtitle{font-weight:700;font-size:18px;color:#0f3764;} .subtitle{color:var(--muted);font-size:13px;}
+    .tabs{display:flex;gap:2px;margin:10px 0 14px 0;}
+    .tab{padding:10px 14px;font-weight:600;background:#f3f6fb;color:#334155;border:1px solid var(--border);border-bottom:none;border-top-left-radius:6px;border-top-right-radius:6px;cursor:pointer;text-decoration:none;}
+    .tab.active{background:var(--sky);color:#0f3764;border-color:#bcd8ff;}
+    .titlebar{background:var(--sky);color:#0f3764;padding:9px 12px;border:1px solid #bcd8ff;border-radius:6px;font-weight:700;margin-bottom:10px;}
+    .card{border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:14px;background:#fff;}
+    h2{margin:8px 0;font-size:15px;color:#0f3764;border-left:4px solid var(--blue);padding-left:8px;}
+    table{width:100%;border-collapse:separate;border-spacing:0;border:1px solid var(--border);border-radius:8px;overflow:hidden;font-size:13.5px;}
+    thead th{background:linear-gradient(180deg,var(--sky),#eaf2ff);color:#083763;font-weight:700;text-align:left;padding:10px;border-bottom:1px solid #cfe0f7;}
+    tbody td{padding:9px 10px;border-bottom:1px solid #eef2f6;vertical-align:top;}
+    tbody tr:nth-child(even) td{background:#fafcff;}
+    .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#ecfdf5;color:#065f46;border:1px solid #bbf7d0;font-size:12px;font-weight:600;}
+    .note{background:#fff7ed;border:1px solid #fed7aa;color:#7c2d12;padding:10px 12px;border-radius:6px;font-size:12.5px;}
+    .footer{margin-top:10px;font-size:12px;color:#64748b;display:flex;justify-content:space-between;border-top:1px dashed #cbd5e1;padding-top:8px;}
+    .btnbar{display:flex;gap:10px;margin:8px 0 2px 0;}
+    .btn{padding:8px 12px;border-radius:6px;font-weight:700;font-size:12.5px;border:1px solid #cfe0f7;color:#0f3764;background:#eaf3ff;}
+    .btn.primary{background:linear-gradient(180deg,#e7f1ff,#d4e7ff);border-color:#bcd8ff;color:#0a328a;}
+    .btn.ghost{background:#f8fafc;color:#334155;}
+    .hidden{display:none;}
+    @media print{.tabs,.btnbar{display:none!important;}}
+  </style>
+</head>
+<body>
+
+  <div class="brandbar">
+    <div class="brandbadge">BR</div>
+    <div>
+      <div class="brandtitle">Government of Bihar – RTPS</div>
+      <div class="subtitle">Issuance of Residence Certificate (स्थानीय निवासी प्रमाण‑पत्र)</div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" data-target="docs">Service Description</button>
+    <button class="tab" data-target="steps">Application Form</button>
+    <a class="tab" href="https://serviceonline.bihar.gov.in/" target="_blank" rel="noopener">Apply For Service</a>
+  </div>
+
+  <div class="titlebar">Issuance of Residence Certificate at SDO level</div>
+
+  <!-- Documents Section (linked with Service Description tab) -->
+  <div id="docs" class="card section">
+    <h2>Following Documents are required along with the application form</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Enclosure Type / Type of Enclosure</th>
+          <th>Original / Photocopy</th>
+          <th>Attestation Required</th>
+          <th>Documents Recommended</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>आवेदन पत्र (Online Form)</td><td>Original</td><td>Not Required</td><td>ऑनलाइन/CSC से भरा हुआ फॉर्म</td></tr>
+        <tr><td>पहचान पत्र</td><td>Original</td><td>Not Required</td><td>आधार, वोटर आईडी, पैन, पासपोर्ट, DL, मनरेगा कार्ड</td></tr>
+        <tr><td>पते का प्रमाण</td><td>Original</td><td>Not Required</td><td>बिजली बिल, राशन कार्ड, बैंक पासबुक, किरायानामा</td></tr>
+        <tr><td>सेवा/संगठन आईडी</td><td>Original</td><td>Not Required</td><td>सरकारी विभाग द्वारा जारी Smart Card/Service ID</td></tr>
+        <tr><td>अन्य सरकारी दस्तावेज़</td><td>Original</td><td>Not Required</td><td>पेंशन डॉक्यूमेंट, MP/MLA/MLC द्वारा जारी Letter/ID</td></tr>
+        <tr><td>फोटो आदि</td><td>Original</td><td>Not Required</td><td>पासपोर्ट साइज फोटो, हलफनामा (यदि मांगा जाए)</td></tr>
+      </tbody>
+    </table>
+    <div class="note">सभी डॉक्यूमेंट साफ़ PDF/JPEG में हों, फाइल नाम सरल रखें।</div>
+  </div>
+
+  <!-- Steps Section (linked with Application Form tab) -->
+  <div id="steps" class="card section hidden">
+    <h2>Steps to Apply Online (RTPS Bihar)</h2>
+    <table>
+      <thead><tr><th style="width:50px">Step</th><th>Description</th></tr></thead>
+      <tbody>
+        <tr><td><span class="tag">1</span></td><td>serviceonline.bihar.gov.in खोलें → Citizen Login/Registration</td></tr>
+        <tr><td><span class="tag">2</span></td><td>“Residence Certificate” सेवा चुनें</td></tr>
+        <tr><td><span class="tag">3</span></td><td>फॉर्म में व्यक्तिगत विवरण व पता भरें</td></tr>
+        <tr><td><span class="tag">4</span></td><td>दस्तावेज़ अपलोड करें (PDF/JPEG)</td></tr>
+        <tr><td><span class="tag">5</span></td><td>फीस भुगतान करें और Acknowledgement नंबर सुरक्षित करें</td></tr>
+        <tr><td><span class="tag">6</span></td><td>स्टेटस ट्रैक करें → स्वीकृति के बाद PDF प्रमाण पत्र डाउनलोड करें</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <div>Source: RTPS Bihar – serviceonline.bihar.gov.in</div>
+    <div>Generated for personal reference • Print to PDF</div>
+  </div>
+
+  <div class="btnbar">
+    <button class="btn primary" onclick="window.print()">Print / Save as PDF</button>
+    <a class="btn ghost" href="https://serviceonline.bihar.gov.in/" target="_blank" rel="noopener">Open RTPS Portal</a>
+  </div>
+
+  <script>
+    const tabs=document.querySelectorAll('.tab[data-target]');
+    const sections=document.querySelectorAll('.section');
+    tabs.forEach(tab=>{
+      tab.addEventListener('click',()=>{
+        tabs.forEach(t=>t.classList.remove('active'));
+        tab.classList.add('active');
+        sections.forEach(s=>s.classList.add('hidden'));
+        const targetId=tab.getAttribute('data-target');
+        if(targetId){document.getElementById(targetId).classList.remove('hidden');}
+      });
+    });
+  </script>
+
+</body>
+</html>
